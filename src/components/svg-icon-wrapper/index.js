@@ -6,15 +6,11 @@ const SvgIconWrapper = ({
   height,
   viewBox,
   title,
-  childPath
+  childPath,
+  iconLabel = ''
 }) => {
-
-  const wrapperStyles = {
-    width: `${width}px`,
-    height: `${height}px`,
-  }
   return (
-    <span className='svg-icon-wrapper' style={wrapperStyles} >
+    <span className='svg-icon-wrapper' >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width={width}
@@ -24,6 +20,9 @@ const SvgIconWrapper = ({
         <title id='title'>{title}</title>
         {childPath}
       </svg>
+      <span className='web-nav-icon-label'>
+        {iconLabel}
+      </span>
     </span>
   )
 };

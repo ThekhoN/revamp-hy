@@ -9,7 +9,7 @@ const Nav = ({mobileView, showOverlay, showNavMobileSubCatModal}) => (
   <nav>
     <NavTop mobileView={mobileView}/>
     <NavCategories mobileView={mobileView}/>
-    {showOverlay && <Overlay />}
+    <Overlay active={showOverlay}/>
     {showNavMobileSubCatModal ? <NavMobileSubCatModal mobileView={mobileView}/> : null}
   </nav>
 );

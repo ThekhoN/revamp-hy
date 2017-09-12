@@ -15,6 +15,7 @@ const NavCartButton = ({handleOnClick}) => {
         height="48"
         viewBox="0 0 48 48"
         title="Homeyantra Navigation Close"
+        iconLabel='My Cart'
         childPath={<NavCartSvgPath fill="#38afc7"/>}
       />
     </div>

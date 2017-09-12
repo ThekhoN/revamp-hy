@@ -1,9 +1,12 @@
 .nav__top {
   height: 48px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
   .nav__top {
     height: 80px;
+    padding: 20px 0;
   }
 }

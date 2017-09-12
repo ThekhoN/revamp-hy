@@ -6,4 +6,15 @@
   left: 0;
   background: #000;
   background: rgba(0,0,0,0.5);
+  transition: opacity 0.2s ease, transform 0s linear;
+}
+
+.overlay-active-true {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.overlay-active-false {
+  opacity: 0;
+  transform: translateX(-100vw);
 }

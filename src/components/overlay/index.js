@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
 
-const Overlay = () => (
-  <div className='overlay z-index--2'>
+const Overlay = ({active}) => (
+  <div className={`overlay z-index--2 overlay-active-${active}`}>
   </div>
 );
 

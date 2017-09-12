@@ -1,12 +1,23 @@
 .svg-icon-wrapper {
   display: inline-block;
   position: relative;
-}
+  height: 48px;
+  width: 48px; }
+
+@media (min-width: 768px) {
+  .svg-icon-wrapper {
+    height: 80px;
+    width: 80px; } }
+
 .svg-icon-wrapper svg {
   position: absolute;
   top: 0;
   left: 0;
   -webkit-backface-visibility: hidden;
-  -webkit-transform: translateZ(0) scale(1.0, 1.0);
-  transform: translateZ(0);
-}
+  -webkit-transform: translateZ(0) scale(1, 1);
+  transform: translateZ(0); }
+
+@media (min-width: 768px) {
+  .svg-icon-wrapper svg {
+    height: 80px;
+    width: 80px; } }

@@ -3,24 +3,26 @@ import BrandLogoText from '../../brand-logo-text';
 import './style.css';
 import MenuHamburgerButton from '../menu-hamburger-button';
 import {connect} from 'react-redux';
-import {showSubCatModal, showSideNav, showMobileCatHeader} from '../../../redux/mobile-ui-nav';
+import {showSubCatModal, showSideNav, showMobileCatHeader, showOverlay} from '../../../redux/mobile-ui-nav';
 import NavSearch from '../nav-search';
 import NavCartButton from '../nav-cart-button';
+import NavProfile from '../nav-profile';
 
-const NavTop = ({handleToggleShowSideNav, handleToggleShowMobileCatHeader}) => (
+const NavTop = ({
+  handleToggleShowSideNav,
+  handleToggleShowMobileCatHeader,
+  handleToggleShowOverlay
+}) => (
   <div className='nav__top bg--white pos--relative z-index--2'>
   <MenuHamburgerButton handleOnClick={() => {
       handleToggleShowSideNav(true);
       handleToggleShowMobileCatHeader(true);
+      handleToggleShowOverlay(true);
     }}/>
-    <BrandLogoText
-      widh='300'
-      height='20'
-      fontSize='14'
-    />
+    <BrandLogoText />
+    <NavProfile />
     <NavCartButton />
     <NavSearch />
-
   </div>
 );
 
@@ -38,6 +40,9 @@ const mapDispatchToProps = (dispatch) => ({
   },
   handleToggleShowMobileCatHeader: (bool) => {
     dispatch(showMobileCatHeader(bool));
+  },
+  handleToggleShowOverlay: (bool) => {
+    dispatch(showOverlay(bool));
   }
 });
 export default connect(mapStateToProps, mapDispatchToProps)(NavTop);

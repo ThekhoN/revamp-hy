@@ -1,0 +1,27 @@
+@import '../../../styles-global/variables.scss';
+
+.nav-profile-icon__wrapper {
+  position: absolute;
+  width: $mobile-nav-height;
+  height: $mobile-nav-height;
+  top: 0;
+  left: 0;
+}
+
+.nav-profile-button {
+  float: right;
+  width: $mobile-nav-height;
+  height: $mobile-nav-height;
+  position: relative;
+}
+
+@media (min-width: $mobile-min-width) {
+  .nav-profile-button {
+    height: $desktop-top-nav-height;
+    width: $desktop-top-nav-height;
+  }
+  .nav-profile-icon__wrapper {
+    height: $desktop-top-nav-height;
+    width: $desktop-top-nav-height;
+  }
+}

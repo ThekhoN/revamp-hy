@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import {showSubCatModal, showBackButton, showMobileCatHeader, showSideNav} from '../../../../redux/mobile-ui-nav';
+import {showSubCatModal, showBackButton, showMobileCatHeader, showSideNav, showOverlay} from '../../../../redux/mobile-ui-nav';
 import {connect} from 'react-redux';
 import {navCategories} from '../../../../redux/nav-category-links';
 import {getCurrentModalCat} from '../../../../redux/nav-category-links';
@@ -13,7 +13,8 @@ const NavCategoriesUl = ({
   handleToggleShowBackButton,
   handleToggleShowMobileCatHeader,
   handleToggleShowSideNav,
-  handleGetCurrentModalCat
+  handleGetCurrentModalCat,
+  handleToggleShowOverlay
 }) => (
   <ul className='nav-categories__ul'>
     {
@@ -28,6 +29,7 @@ const NavCategoriesUl = ({
               handleToggleShowBackButton(true);
               handleToggleShowMobileCatHeader(false);
               handleToggleShowSideNav(false);
+              handleToggleShowOverlay(false);
             }}>
             {e.name}
             <ul className='nav-categories-inner__ul'>
@@ -69,6 +71,9 @@ const mapDispatchToProps = (dispatch) => ({
   },
   handleGetCurrentModalCat: (payload) => {
     dispatch(getCurrentModalCat(payload));
+  },
+  handleToggleShowOverlay: (bool) => {
+    dispatch(showOverlay(bool))
   }
 });
 export default connect(mapStateToProps, mapDispatchToProps)(NavCategoriesUl);

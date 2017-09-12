@@ -1,0 +1,31 @@
+@import '../../styles-global/variables.scss';
+
+.svg-icon-wrapper {
+  display: inline-block;
+  position: relative;
+  height: $mobile-nav-height;
+  width: $mobile-nav-height;
+}
+
+@media (min-width: $mobile-min-width) {
+  .svg-icon-wrapper {
+    height: $desktop-top-nav-height;
+    width: $desktop-top-nav-height;
+  }
+}
+
+.svg-icon-wrapper svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
+}
+
+@media (min-width: $mobile-min-width) {
+  .svg-icon-wrapper svg {
+    height: $desktop-top-nav-height;
+    width: $desktop-top-nav-height;
+  }
+}
