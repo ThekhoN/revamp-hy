@@ -1,0 +1,15 @@
+
+.brand-logo__text {
+  height: 48px;
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+  padding: 0 4px;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .brand-logo__text {
+    height: 80px;
+  }
+}

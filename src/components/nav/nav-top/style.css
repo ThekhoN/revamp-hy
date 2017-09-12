@@ -1,0 +1,9 @@
+.nav__top {
+  height: 48px;
+}
+
+@media (min-width: 768px) {
+  .nav__top {
+    height: 80px;
+  }
+}

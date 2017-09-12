@@ -1,0 +1,8 @@
+.nav-mobile-sub-cat-title {
+  height: 48px;
+  position: relative;
+  left: 48px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 4px;
+}

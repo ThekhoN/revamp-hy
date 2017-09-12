@@ -1,0 +1,8 @@
+.nav-mobile__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: white;
+  width: 100%;
+}

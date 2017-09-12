@@ -1,0 +1,12 @@
+.svg-icon-wrapper {
+  display: inline-block;
+  position: relative;
+}
+.svg-icon-wrapper svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
+}

@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  .mobile-side-nav--true {
+    opacity: 1;
+    transform: translateX(0px);
+    /*display: block;*/
+  }
+
+  .mobile-side-nav--false {
+    opacity: 0;
+    transform: translateX(-300px);
+    /*display: none;*/
+  }
+
+  .nav-categories__container {
+    width: 260px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.35);
+    transition: all 0.2s cubic-bezier(0.635, -0.195, 0.345, 0.975);
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-categories__container {
+    background: #1e2c42;
+    width: 100%;
+    position: static;
+    float: left;
+  }
+}

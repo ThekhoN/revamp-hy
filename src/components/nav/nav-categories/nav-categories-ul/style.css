@@ -1,0 +1,117 @@
+.nav-categories__ul {
+  width: 260px;
+  /*border: 1px solid grey;*/
+  padding: 0 24px;
+  box-sizing: border-box;
+  background: white;
+}
+
+@media (min-width: 768px) {
+  .nav-categories__ul {
+    /*width: 960px;*/
+    width: 100%;
+    float: left;
+    background: none;
+  }
+}
+
+@media (min-width: 768px) {
+  nav ul li.nav-categories__li:hover > ul.nav-categories-inner__ul {
+    display:inherit;
+  }
+  li.nav-categories__li:hover {
+    background: #009ce8;
+  }
+}
+
+
+
+.nav-categories-inner__ul {
+  width: 260px;
+  display: none;
+	position: absolute;
+  background: white;
+	top: 49px;
+  left: 0;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .nav-categories-inner__ul {
+    width: 100%;
+    padding: 0px 36px;
+  }
+}
+
+.nav-categories__li {
+  cursor: pointer;
+  display: block;
+  padding: 20px 0;
+  color: #414042;
+  font-size: 12px;
+  border-bottom: 1px solid #efefef;
+  &:last-child {
+    border-bottom:0;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-categories__li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    width: 20%;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0;
+  }
+}
+/*
+@media (max-width: 768px) {
+  .mobile-side-nav--true {
+    display: block;
+  }
+
+  .mobile-side-nav--false {
+    display: none;
+  }
+}
+*/
+
+.nav-sub-categories__li {
+  cursor: pointer;
+  display: block;
+  padding: 20px 0;
+  color: #414042;
+  font-size: 12px;
+  border-bottom: 1px solid #efefef;
+  &:last-child {
+    border-bottom:0;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-sub-categories__li {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #efefef;
+  }
+  .nav-sub-categories__li:last-child {
+    border: 0;
+  }
+  .nav-sub-categories__li a {
+    padding: 15px 0;
+    color: #1e2c42;
+    font-size: 14px;
+    text-decoration: none;
+  }
+}
