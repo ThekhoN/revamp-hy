@@ -1,0 +1,19 @@
+.nav-cart {
+  width: auto;
+  float: right; }
+
+@media (min-width: 768px) {
+  .nav-cart {
+    width: 11%;
+    height: 48px;
+    background: #38afc7;
+    border-radius: 4px;
+    margin-right: 1%; } }
+
+.nav-cart-label {
+  display: table-cell;
+  width: 40%;
+  margin-right: 10%;
+  height: 48px;
+  vertical-align: middle;
+  color: white; }

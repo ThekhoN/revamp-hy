@@ -1,10 +1,17 @@
 import React from 'react';
-import NavProfileButton from './nav-profile-button';
+import NavAuthdProfileButton from './nav-authd-profile-button';
+import './style.css';
+import {connect} from 'react-redux';
+import NavAuthUser from './nav-auth-user';
 
-const NavProfile = () => (
+const NavProfile = ({authenticated}) => (
   <div className='nav-profile'>
-    <NavProfileButton />
+    {authenticated ? <NavAuthdProfileButton /> : <NavAuthUser />}
   </div>
 );
+
+const mapStateToProps = (state) => ({
+  authenticated: state.userAuth.authenticated
+});
 
 export default NavProfile;

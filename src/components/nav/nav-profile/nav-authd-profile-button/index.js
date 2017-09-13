@@ -13,7 +13,7 @@ const NavProfileSvgAuthd = () => (
   </svg>
 );
 
-const NavProfileButton = ({handleOnClick}) => {
+const NavAuthdProfileButton = ({handleOnClick}) => {
   return (
     <div
       className='nav-profile-button'
@@ -23,10 +23,10 @@ const NavProfileButton = ({handleOnClick}) => {
         <NavProfileSvgAuthd />
       </span>
       <span className='web-nav-icon-label'>
-        My Profile
+        My Account
       </span>
     </div>
   );
 }
 
-export default NavProfileButton;
+export default NavAuthdProfileButton;

@@ -1,17 +1,16 @@
 @import '../../../styles-global/variables.scss';
 
-.nav-profile {
-  width: auto;
-  float: right;
-  height: $desktop-nav-height;
-}
-
 @media (min-width: $mobile-min-width) {
-  .nav-profile {
+  .nav-customer-care {
+    float: right;
     width: $desktop-nav-element-width;
     height: $desktop-nav-height;
-    margin-right: 1%;
+    margin-right: 4%;
+    color: $color-brand-light-blue;
     text-align: center;
+    box-sizing: border-box;
+    padding: $desktop-nav-item-center-padding 0;
+    background: $color-brand-light-grey;
     border-radius: $border-radius;
     cursor: pointer;
   }

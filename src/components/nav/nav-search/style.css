@@ -1,0 +1,13 @@
+.nav-search__container {
+  width: auto; }
+
+@media (min-width: 768px) {
+  .nav-search__container {
+    border-radius: 4px;
+    width: 42%;
+    height: 48px;
+    background: #efefef;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    margin-right: 1%;
+    overflow: hidden; } }

@@ -1,0 +1,37 @@
+@import '../../../../styles-global/variables.scss';
+
+.nav-auth-user {
+  color: $color-brand-light-blue;
+  height: $desktop-nav-height;
+  box-sizing: border-box;
+}
+
+@media (min-width: $large-desktop-min-width) {
+  .nav-auth-user {
+    padding: $desktop-nav-item-center-padding 0;
+  }
+}
+
+.nav-auth-user a {
+  text-decoration: none;
+  color: $color-brand-light-blue;
+  // display: inline-block;
+  width: 48%;
+  float: left;
+  text-align: center;
+  position: relative;
+
+  &:first-child::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    right: 0;
+    width: 1px;
+    background: $color-separator;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

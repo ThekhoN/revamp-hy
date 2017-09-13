@@ -1,0 +1,26 @@
+.nav-auth-user {
+  color: #38afc7;
+  height: 48px;
+  box-sizing: border-box; }
+
+@media (min-width: 980px) {
+  .nav-auth-user {
+    padding: 13px 0; } }
+
+.nav-auth-user a {
+  text-decoration: none;
+  color: #38afc7;
+  width: 48%;
+  float: left;
+  text-align: center;
+  position: relative; }
+  .nav-auth-user a:first-child::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    right: 0;
+    width: 1px;
+    background: #cccccc; }
+  .nav-auth-user a:hover {
+    text-decoration: underline; }

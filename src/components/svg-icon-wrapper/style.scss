@@ -8,10 +8,10 @@
 }
 
 @media (min-width: $mobile-min-width) {
-  .svg-icon-wrapper {
-    height: $desktop-top-nav-height;
-    width: $desktop-top-nav-height;
-  }
+  // .svg-icon-wrapper {
+  //   height: $desktop-top-nav-height;
+  //   width: $desktop-top-nav-height;
+  // }
 }
 
 .svg-icon-wrapper svg {
@@ -24,8 +24,8 @@
 }
 
 @media (min-width: $mobile-min-width) {
-  .svg-icon-wrapper svg {
-    height: $desktop-top-nav-height;
-    width: $desktop-top-nav-height;
-  }
+  // .svg-icon-wrapper svg {
+  //   height: $desktop-top-nav-height;
+  //   width: $desktop-top-nav-height;
+  // }
 }

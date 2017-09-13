@@ -1,0 +1,13 @@
+.nav-profile {
+  width: auto;
+  float: right;
+  height: 48px; }
+
+@media (min-width: 768px) {
+  .nav-profile {
+    width: 11%;
+    height: 48px;
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer; } }

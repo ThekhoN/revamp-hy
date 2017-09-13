@@ -1,3 +1,5 @@
+@import '../../styles-global/variables.scss';
+
 .brand-logo__text {
   height: 48px;
   display: flex;
@@ -5,12 +7,15 @@
   align-items: center;
   padding: 0 4px;
   float: left;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
-@media (min-width: 980px) {
+@media (min-width: $large-desktop-min-width) {
   .brand-logo__text {
     font-size: 22px;
     padding: 0 36px;
     box-sizing: border-box;
     width: 16%;
-    justify-content: center; } }
+    justify-content: center;
+  }
+}

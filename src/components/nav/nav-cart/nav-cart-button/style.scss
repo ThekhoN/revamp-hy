@@ -1,0 +1,21 @@
+@import '../../../../styles-global/variables.scss';
+
+.nav-cart-button {
+  color: red;
+  float: left;
+  margin-left: 10%;
+}
+
+@media (min-width: $mobile-min-width) {
+  .nav-cart-button {
+    color: white;
+  }
+  .nav-cart-button svg {
+    fill: #ffffff !important;
+  }
+}
+
+.nav-cart-button .web-nav-icon-label {
+  bottom: 18px;
+  right: -76%;
+}

@@ -1,0 +1,31 @@
+@import '../../../../styles-global/variables.scss';
+
+.nav-profile-icon__wrapper {
+  position: absolute;
+  width: $mobile-nav-height;
+  height: $mobile-nav-height;
+  top: 0;
+  left: 0;
+}
+@media (min-width: $mobile-min-width) {
+  .nav-profile-icon__wrapper {
+    position: relative;
+  }
+}
+
+.nav-profile-button {
+  width: $mobile-nav-height;
+  height: $mobile-nav-height;
+  position: relative;
+  display: inline-block;
+}
+
+@media (min-width: $mobile-min-width) {
+  .nav-profile-button {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-profile-button .web-nav-icon-label {
+    bottom: 0px;
+  }
+}

@@ -5,8 +5,9 @@ import MenuHamburgerButton from '../menu-hamburger-button';
 import {connect} from 'react-redux';
 import {showSubCatModal, showSideNav, showMobileCatHeader, showOverlay} from '../../../redux/mobile-ui-nav';
 import NavSearch from '../nav-search';
-import NavCartButton from '../nav-cart-button';
+import NavCart from '../nav-cart';
 import NavProfile from '../nav-profile';
+import NavCustomerCare from '../nav-customer-care';
 
 const NavTop = ({
   handleToggleShowSideNav,
@@ -20,8 +21,9 @@ const NavTop = ({
       handleToggleShowOverlay(true);
     }}/>
     <BrandLogoText />
+    <NavCustomerCare />
     <NavProfile />
-    <NavCartButton />
+    <NavCart />
     <NavSearch />
   </div>
 );

@@ -35,6 +35,34 @@ ul, li {
   .mobile-ui--only {
     display: none; } }
 
+.mobile-ui-large--only {
+  display: none; }
+
+@media (max-width: 980px) {
+  .mobile-ui-large--only {
+    display: block; } }
+
+.desktop-ui--only {
+  display: none; }
+
+@media (min-width: 768px) {
+  .desktop-ui--only {
+    display: block; } }
+
+.desktop-large-ui--only {
+  display: none; }
+
+@media (min-width: 980px) {
+  .desktop-large-ui--only {
+    display: block; } }
+
+.desktop-large-ui--only-inline-block {
+  display: none; }
+
+@media (min-width: 980px) {
+  .desktop-large-ui--only-inline-block {
+    display: inline-block; } }
+
 .width--full {
   width: 100% !important; }
 
@@ -75,7 +103,7 @@ ul, li {
   position: absolute;
   bottom: 4px;
   z-index: 1;
-  font-size: 10px;
+  font-size: 12px;
   width: 100%;
   text-align: center;
   display: none; }

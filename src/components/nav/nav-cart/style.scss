@@ -1,0 +1,25 @@
+@import '../../../styles-global/variables.scss';
+
+.nav-cart {
+  width: auto;
+  float: right;
+}
+
+@media (min-width: $mobile-min-width) {
+  .nav-cart {
+    width: $desktop-nav-element-width;
+    height: $desktop-nav-height;
+    background: $color-brand-light-blue;
+    border-radius: $border-radius;
+    margin-right: 1%;
+  }
+}
+
+.nav-cart-label {
+  display: table-cell;
+  width: 40%;
+  margin-right: 10%;
+  height: $desktop-nav-height;
+  vertical-align: middle;
+  color: white;
+}

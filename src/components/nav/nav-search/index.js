@@ -1,5 +1,6 @@
 import React from 'react';
 import NavSearchButton from './nav-search-button';
+import './style.css';
 
 const NavSearch = () => {
   const style = {

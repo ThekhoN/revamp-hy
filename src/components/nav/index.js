@@ -4,9 +4,10 @@ import NavCategories from './nav-categories';
 import Overlay from '../overlay';
 import {connect} from 'react-redux';
 import NavMobileSubCatModal from './nav-mobile-sub-cat-modal';
+import './style.css';
 
 const Nav = ({mobileView, showOverlay, showNavMobileSubCatModal}) => (
-  <nav>
+  <nav className='main-nav'>
     <NavTop mobileView={mobileView}/>
     <NavCategories mobileView={mobileView}/>
     <Overlay active={showOverlay}/>

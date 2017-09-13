@@ -1,0 +1,15 @@
+.nav-search-button {
+  width: auto;
+  text-align: center; }
+
+.nav-search-button svg {
+  fill: #38afc7; }
+
+@media (min-width: 768px) {
+  .nav-search-button {
+    width: 14%;
+    float: right;
+    background: #38afc7;
+    height: 48px; }
+  .nav-search-button svg {
+    fill: #ffffff; } }

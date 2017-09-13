@@ -1,4 +1,4 @@
-@import '../../../styles-global/variables.scss';
+@import '../../../../styles-global/variables.scss';
 
 .nav-profile-icon__wrapper {
   position: absolute;
@@ -7,21 +7,25 @@
   top: 0;
   left: 0;
 }
+@media (min-width: $mobile-min-width) {
+  .nav-profile-icon__wrapper {
+    position: relative;
+  }
+}
 
 .nav-profile-button {
-  float: right;
   width: $mobile-nav-height;
   height: $mobile-nav-height;
   position: relative;
+  display: inline-block;
 }
 
 @media (min-width: $mobile-min-width) {
   .nav-profile-button {
-    height: $desktop-top-nav-height;
-    width: $desktop-top-nav-height;
+    width: 100%;
+    text-align: center;
   }
-  .nav-profile-icon__wrapper {
-    height: $desktop-top-nav-height;
-    width: $desktop-top-nav-height;
+  .nav-profile-button .web-nav-icon-label {
+    bottom: 0px;
   }
 }

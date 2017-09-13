@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .nav-customer-care {
+    float: right;
+    width: 11%;
+    height: 48px;
+    margin-right: 4%;
+    color: #38afc7;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 13px 0;
+    background: #efefef;
+    border-radius: 4px;
+    cursor: pointer; } }

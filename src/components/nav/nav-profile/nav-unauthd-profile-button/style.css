@@ -1,0 +1,23 @@
+.nav-profile-icon__wrapper {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 0;
+  left: 0; }
+
+@media (min-width: 768px) {
+  .nav-profile-icon__wrapper {
+    position: relative; } }
+
+.nav-profile-button {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  display: inline-block; }
+
+@media (min-width: 768px) {
+  .nav-profile-button {
+    width: 100%;
+    text-align: center; }
+  .nav-profile-button .web-nav-icon-label {
+    bottom: 0px; } }
