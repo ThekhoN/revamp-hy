@@ -1,16 +1,19 @@
 .brand-logo__text {
   height: 48px;
   display: flex;
-  display: -ms-flexbox;
   align-items: center;
   padding: 0 4px;
   float: left;
   font-size: 16px; }
 
-@media (min-width: 980px) {
+@media (min-width: 768px) {
   .brand-logo__text {
-    font-size: 22px;
-    padding: 0 36px;
-    box-sizing: border-box;
     width: 16%;
     justify-content: center; } }
+
+@media (min-width: 980px) {
+  .brand-logo__text {
+    margin-left: 1%;
+    font-size: 22px;
+    padding: 0 36px;
+    box-sizing: border-box; } }

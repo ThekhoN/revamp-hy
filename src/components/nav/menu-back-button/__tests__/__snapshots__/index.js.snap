@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuBackButton renders correctly 1`] = `
+<div
+  className="mobile-ui--only pos--absolute"
+  onClick={undefined}
+  style={
+    Object {
+      "left": "0px",
+      "top": "0px",
+    }
+  }
+>
+  <span
+    className="svg-icon-wrapper"
+  >
+    <svg
+      aria-labelledby="title"
+      height="48"
+      viewBox="0 0 48 48"
+      width="48"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <title
+        id="title"
+      >
+        Homeyantra Navigation Close
+      </title>
+      <path
+        d="M22.7 24l4.7-4.7c.2-.2.3-.4.3-.7 0-.3-.1-.5-.3-.7-.2-.2-.4-.3-.7-.3-.3 0-.5.1-.7.3l-5.4 5.4c-.2.2-.3.4-.3.7s.1.5.3.7l5.4 5.4c.2.2.4.3.7.3.3 0 .5-.1.7-.3.2-.2.3-.4.3-.7 0-.3-.1-.5-.3-.7L22.7 24z"
+        fill="#38afc7"
+      />
+    </svg>
+  </span>
+</div>
+`;

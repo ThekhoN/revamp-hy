@@ -3,15 +3,19 @@
 .nav-cart-button {
   color: red;
   float: left;
-  margin-left: 10%;
+}
+
+.nav-cart-button svg {
+  fill: $color-brand-light-blue;
 }
 
 @media (min-width: $mobile-min-width) {
   .nav-cart-button {
     color: white;
+    margin-left: 19%;
   }
   .nav-cart-button svg {
-    fill: #ffffff !important;
+    fill: #ffffff;
   }
 }
 

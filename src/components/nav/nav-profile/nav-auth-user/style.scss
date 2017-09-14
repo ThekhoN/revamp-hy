@@ -14,7 +14,7 @@
 
 .nav-auth-user a {
   text-decoration: none;
-  color: $color-brand-light-blue;
+  color: white;
   // display: inline-block;
   width: 48%;
   float: left;
@@ -33,5 +33,11 @@
 
   &:hover {
     text-decoration: underline;
+  }
+}
+
+@media (min-width: $large-desktop-min-width + 1px) {
+  .nav-auth-user a {
+    color: $color-brand-light-blue;
   }
 }

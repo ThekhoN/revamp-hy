@@ -12,14 +12,17 @@
     background: $color-brand-light-blue;
     border-radius: $border-radius;
     margin-right: 1%;
+    box-shadow: $shadows-prominent;
   }
 }
 
-.nav-cart-label {
-  display: table-cell;
-  width: 40%;
-  margin-right: 10%;
-  height: $desktop-nav-height;
-  vertical-align: middle;
-  color: white;
+@media (min-width: $mobile-min-width) {
+  .nav-cart-label {
+    display: table-cell;
+    width: 40%;
+    margin-right: 10%;
+    height: $desktop-nav-height;
+    vertical-align: middle;
+    color: white;
+  }
 }

@@ -9,7 +9,7 @@
 
 .nav-auth-user a {
   text-decoration: none;
-  color: #38afc7;
+  color: white;
   width: 48%;
   float: left;
   text-align: center;
@@ -24,3 +24,7 @@
     background: #cccccc; }
   .nav-auth-user a:hover {
     text-decoration: underline; }
+
+@media (min-width: 981px) {
+  .nav-auth-user a {
+    color: #38afc7; } }

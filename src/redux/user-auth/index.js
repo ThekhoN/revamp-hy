@@ -9,7 +9,7 @@ export const authUser = payload => ({
 
 // reducer
 export const initialStateUserAuth = {
-  authenticated: false
+  authenticated: true
 };
 
 const userAuth = (state = initialStateUserAuth, action) => {

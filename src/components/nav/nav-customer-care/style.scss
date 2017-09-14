@@ -10,8 +10,13 @@
     text-align: center;
     box-sizing: border-box;
     padding: $desktop-nav-item-center-padding 0;
-    background: $color-brand-light-grey;
     border-radius: $border-radius;
     cursor: pointer;
+  }
+}
+
+@media (min-width: $large-desktop-min-width) {
+  .nav-customer-care {
+    background: $color-brand-light-grey;
   }
 }

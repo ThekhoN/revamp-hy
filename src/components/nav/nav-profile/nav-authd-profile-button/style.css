@@ -18,6 +18,14 @@
 @media (min-width: 768px) {
   .nav-profile-button {
     width: 100%;
-    text-align: center; }
-  .nav-profile-button .web-nav-icon-label {
-    bottom: 0px; } }
+    text-align: center; } }
+
+.nav-profile-label--baseline {
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  text-align: center;
+  width: 100%; }
+
+.nav-profile-icon__wrapper svg.filled-path {
+  fill: red !important; }

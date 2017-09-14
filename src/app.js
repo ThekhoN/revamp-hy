@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Nav from '../../components/nav';
-import {debouncer} from '../../modules/debounce';
+import Nav from './components/nav';
+import {debouncer} from './modules/debounce';
 
 export default class App extends Component {
   constructor (props) {

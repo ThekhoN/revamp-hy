@@ -1,13 +1,16 @@
 .nav-cart-button {
   color: red;
-  float: left;
-  margin-left: 10%; }
+  float: left; }
+
+.nav-cart-button svg {
+  fill: #38afc7; }
 
 @media (min-width: 768px) {
   .nav-cart-button {
-    color: white; }
+    color: white;
+    margin-left: 19%; }
   .nav-cart-button svg {
-    fill: #ffffff !important; } }
+    fill: #ffffff; } }
 
 .nav-cart-button .web-nav-icon-label {
   bottom: 18px;

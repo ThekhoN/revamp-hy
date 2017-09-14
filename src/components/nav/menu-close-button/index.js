@@ -4,7 +4,7 @@ import {NavCloseSvgPath} from '../../svg-paths';
 
 const MenuCloseButton = ({handleOnClick}) => (
   <div
-  className='mobile-ui--only align--top-right--abs'
+  className='menu-close-button mobile-ui--only align--top-right--abs'
   onClick={handleOnClick}>
     <SvgIconWrapper
       width="48"

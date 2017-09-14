@@ -1,6 +1,7 @@
 import React from 'react';
 import SvgIconWrapper from '../../svg-icon-wrapper';
 import {NavBackSvgPath} from '../../svg-paths';
+import PropTypes from 'prop-types';
 
 const MenuBackButton = ({handleOnClick, alignTo = 'left'}) => {
   const style = {
@@ -22,5 +23,10 @@ const MenuBackButton = ({handleOnClick, alignTo = 'left'}) => {
     </div>
   );
 }
+
+MenuBackButton.propTypes = {
+    handleOnClick: PropTypes.func,
+    alignTo: PropTypes.string
+};
 
 export default MenuBackButton;

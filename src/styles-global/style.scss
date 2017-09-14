@@ -51,7 +51,7 @@ ul, li {
   display: none;
 }
 
-@media (max-width: $large-desktop-min-width) {
+@media (max-width: $large-desktop-min-width - 1px) {
   .mobile-ui-large--only {
     display: block;
   }

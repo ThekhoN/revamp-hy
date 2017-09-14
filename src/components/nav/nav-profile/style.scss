@@ -14,5 +14,12 @@
     text-align: center;
     border-radius: $border-radius;
     cursor: pointer;
+
+  }
+}
+
+@media (min-width: $mobile-min-width) and (max-width: $large-desktop-min-width) {
+  .nav-profile {
+      background: $color-brand-light-blue;
   }
 }
