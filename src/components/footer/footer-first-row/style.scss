@@ -1,0 +1,9 @@
+@import '../../../styles-global/variables.scss';
+
+.footer-first-row {
+	box-sizing: border-box;
+	padding: $padding-vertical-layout-desktop $padding-horizontal-layout-desktop;
+}
+.col-1-of-4-footer {
+	width: 25%;
+}

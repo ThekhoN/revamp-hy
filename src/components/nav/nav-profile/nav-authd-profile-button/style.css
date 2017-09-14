@@ -25,7 +25,8 @@
   left: 0;
   bottom: -4px;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  color: #38afc7; }
 
 .profile-svg-filled-path {
   fill: #38afc7; }
