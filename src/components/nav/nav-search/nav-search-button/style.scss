@@ -9,7 +9,7 @@
   fill: $color-brand-light-blue;
 }
 
-@media (min-width: $mobile-min-width) {
+@media (min-width: $mq-mobile-min-width) {
   .nav-search-button {
     width: 14%;
     float: right;

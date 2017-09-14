@@ -59,7 +59,7 @@ ul, li {
 .desktop-large-ui--only-inline-block {
   display: none; }
 
-@media (min-width: 980px) {
+@media (min-width: 981px) {
   .desktop-large-ui--only-inline-block {
     display: inline-block; } }
 

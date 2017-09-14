@@ -9,7 +9,7 @@
   fill: $color-brand-light-blue;
 }
 
-@media (min-width: $mobile-min-width) {
+@media (min-width: $mq-mobile-min-width) {
   .nav-cart-button {
     color: white;
     margin-left: 19%;

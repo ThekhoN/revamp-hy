@@ -51,7 +51,7 @@ ul, li {
   display: none;
 }
 
-@media (max-width: $large-desktop-min-width - 1px) {
+@media (max-width: $mq-large-desktop-min-width - 1px) {
   .mobile-ui-large--only {
     display: block;
   }
@@ -71,7 +71,7 @@ ul, li {
   display: none;
 }
 
-@media (min-width: $large-desktop-min-width) {
+@media (min-width: $mq-large-desktop-min-width) {
   .desktop-large-ui--only {
     display: block;
   }
@@ -81,7 +81,7 @@ ul, li {
   display: none;
 }
 
-@media (min-width: $large-desktop-min-width) {
+@media (min-width: $mq-large-desktop-min-width + 1px) {
   .desktop-large-ui--only-inline-block {
     display: inline-block;
   }
@@ -143,7 +143,7 @@ ul, li {
   display: none;
 }
 
-@media (min-width: $mobile-min-width) {
+@media (min-width: $mq-mobile-min-width) {
   .web-nav-icon-label {
     display: block;
   }

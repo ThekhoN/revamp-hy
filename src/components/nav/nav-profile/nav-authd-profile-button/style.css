@@ -27,5 +27,9 @@
   text-align: center;
   width: 100%; }
 
-.nav-profile-icon__wrapper svg.filled-path {
-  fill: red !important; }
+.profile-svg-filled-path {
+  fill: #38afc7; }
+
+@media (min-width: 768px) and (max-width: 980px) {
+  .profile-svg-filled-path {
+    fill: #ffffff; } }

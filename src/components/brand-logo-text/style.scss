@@ -9,14 +9,14 @@
   font-size: 16px;
 }
 
-@media (min-width: $mobile-min-width) {
+@media (min-width: $mq-mobile-min-width) {
   .brand-logo__text {
     width: 16%;
     justify-content: center;
   }
 }
 
-@media (min-width: $large-desktop-min-width) {
+@media (min-width: $mq-large-desktop-min-width) {
   .brand-logo__text {
     margin-left: 1%;
     font-size: 22px;

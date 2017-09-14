@@ -7,7 +7,7 @@
   width: $mobile-nav-height;
 }
 
-@media (min-width: $mobile-min-width) {
+@media (min-width: $mq-mobile-min-width) {
   // .svg-icon-wrapper {
   //   height: $desktop-top-nav-height;
   //   width: $desktop-top-nav-height;
@@ -23,7 +23,7 @@
   transform: translateZ(0);
 }
 
-@media (min-width: $mobile-min-width) {
+@media (min-width: $mq-mobile-min-width) {
   // .svg-icon-wrapper svg {
   //   height: $desktop-top-nav-height;
   //   width: $desktop-top-nav-height;

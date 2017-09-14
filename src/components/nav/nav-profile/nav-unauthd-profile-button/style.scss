@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
 }
-@media (min-width: $mobile-min-width) {
+@media (min-width: $mq-mobile-min-width) {
   .nav-profile-icon__wrapper {
     position: relative;
   }
@@ -20,7 +20,7 @@
   display: inline-block;
 }
 
-@media (min-width: $mobile-min-width) {
+@media (min-width: $mq-mobile-min-width) {
   .nav-profile-button {
     width: 100%;
     text-align: center;

@@ -1,6 +1,6 @@
 @import '../../../styles-global/variables.scss';
 
-@media (min-width: $mobile-min-width) {
+@media (min-width: $mq-mobile-min-width) {
   .nav-customer-care {
     float: right;
     width: $desktop-nav-element-width;
@@ -15,7 +15,7 @@
   }
 }
 
-@media (min-width: $large-desktop-min-width) {
+@media (min-width: $mq-large-desktop-min-width) {
   .nav-customer-care {
     background: $color-brand-light-grey;
   }

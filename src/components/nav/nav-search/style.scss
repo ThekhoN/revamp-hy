@@ -4,7 +4,7 @@
   width: auto;
 }
 
-@media (min-width: $mobile-min-width) {
+@media (min-width: $mq-mobile-min-width) {
   .nav-search__container {
     border-radius: $border-radius;
     width: $desktop-search-width;
