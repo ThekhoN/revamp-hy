@@ -9,8 +9,12 @@ body {
   background: #cccccc;
   height: 110vh; }
 
-ul, li {
+ul,
+li {
   list-style: none; }
+
+.global-max-font-size {
+  font-size: 36px; }
 
 /* POSITION */
 .pos--relative {
